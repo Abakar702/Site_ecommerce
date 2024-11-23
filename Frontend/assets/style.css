@@ -23,8 +23,10 @@ body {
 }
 
 /* Mis en forme main */
-.main-content {
-}
+/* section {
+  margin-bottom: 12px;
+  padding: 12px;
+} */
 
 /* Mis en forme header (barre de navigation) */
 main header {
@@ -296,4 +298,55 @@ header form button:hover {
   to {
     opacity: 1;
   }
+}
+
+/* pied de notre site web */
+footer {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.footer-section ul li a:hover {
+  color: var(--color-orange);
+}
+.footer-section .socials a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
 }
